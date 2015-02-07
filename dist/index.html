@@ -1,40 +1,168 @@
 <!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>index - boxmein.net</title>
+    <meta name="author" content="boxmein">
+    <meta name="keywords" content="developer, programmer, designer, web design" />
+    <meta name="description" content="personal site of boxmein">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px|Roboto:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  </head>
+  <body>
+    <header class="container">
+      <h1>boxmein</h1>
+      <p>the personal site of boxmein</p>
+      <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+      <![endif]-->
+    </header>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <main class="container">
+      <section class="intro">
+        <p>I do a lot of things. I'd mainly call myself a web developer,
+        since that's what I do most, but other than web dev I'm alright in
+        a lot of programming languages.</p>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+        <p>Below you'll find a collection of my work. If you want me to do
+        something for you, you can email me at <img src="img/email.png">.</p>
+      </section>
+
+      <h1>Projects</h1>
+
+      <section class="projects row">
+
+        <div class="project-card col-md-4">
+          <h1>TPTElements</h1>
+          <p>A website to gather information about
+          <a rel="nofollow" href="http://powdertoy.co.uk">The Powder Toy</a>'s
+          scripting interface.</p>
+          <a href="https://github.com/boxmein/tptelements2">Source</a> /
+          <a href="http://tptelements.boxmein.net">Live</a>
+        </div>
+        <div class="project-card col-md-4">
+          <h1>murder-mystery</h1>
+          <p>A recent project to make a web app (usable on mobile) using
+          <a rel="nofollow" href="http://angularjs.org">Angular.js</a> as well
+          as <a href="https://material.angularjs.org/" rel="nofollow">
+          angular-material</a>.</p>
+          <a href="https://github.com/boxmein/murder-mystery">Source</a> /
+          <a href="http://boxmein.net/etc/murder">Live</a>
+        </div>
+        <div class="project-card col-md-4">
+          <h1>script-server</h1>
+          <p>Another recent project. This is a mostly client-side app to
+          manage Lua scripts made for The Powder Toy.</p>
+          <a href="https://github.com/boxmein/starcatcher-script-server-design">Source</a> /
+          <a href="http://starcatcher.us/scripts">Live</a>
+        </div>
+        <div class="project-card col-md-4">
+          <h1>links-not-for-robots</h1>
+          <p>A web server that acts as a link shortener (which doesn't actually make links any shorter) to hide URLs behind a CAPTCHA. The
+          link itself is stored inside the URL, meaning there is no server-
+          side database to keep track of links.</p>
+          <a href="https://github.com/boxmein/links-not-for-robots">Source</a> /
+          <del>Live</del>
+        </div>
+        <div class="project-card col-md-4">
+          <h1>desktop-lightbox</h1>
+          <p>A spartan image viewer without unnecessary features. It'll
+          display all sorts of images, and that's about it.</p>
+          <p>Plays animated GIFs on the desktop! :D</p>
+
+          <a href="https://github.com/boxmein/desktop-lightbox">Source</a> /
+          <a href="https://github.com/boxmein/desktop-lightbox/releases/tag/v1.0">v1.0</a>
+        </div>
+        <div class="project-card col-md-4">
+          <h1>inmake</h1>
+          <p>"Inline Make" - a way to keep short build commands inside the
+          source files themselves.</p>
+          <p>Supports various usage modes, including regex matching. Excellent
+          with Sublime Text.</p>
+          <a href="https://github.com/boxmein/inmake">Source</a>
+        </div>
+        <div class="project-card col-md-4">
+          <h1>word-to-word</h1>
+          <p>A Chrome extension and GreaseMonkey user-script that runs simple
+          replacements on the HTML page you're loading before you'll be
+          reading it.</p>
+          <p>You can configure your own substitutions via the button.</p>
+          <a href="https://github.com/boxmein/word-to-word">Source</a> /
+          <a href="https://github.com/boxmein/word-to-word/releases/tag/v1.1">v1.1</a>
+        </div>
+      </section>
+
+      <h1>Other Websites</h1>
+
+      <section class="other_websites">
+        <p>Some other websites you can find me on.</p>
+        <ul>
+          <li><a href="https://github.com/boxmein">GitHub</a></li>
+          <li><a href="https://stackoverflow.com/users/2278637/boxmein">Stack Overflow</a></li>
+          <li><a href="http://keybase.io/boxmein">Keybase</a></li>
+          <li><a href="http://tpt.io/@boxmein">Powder Toy Forums</a></li>
+          <li><a href="http://codepen.io/boxmein/">CodePen</a></li>
+
+        </ul>
+      </section>
+
+      <h1>Stuff</h1>
+
+      <section class="stuff">
+        <p>Here's a bunch of things that don't really classify as projects:</p>
+        <ul>
+          <li><a href="/tests/2014-fireworks">Fireworks</a></li>
+          <li><a href="/tests/geosketch">GeoSketch clone</a></li>
+          <li><a href="/tests/maps-path">Google Maps Path Tracker</a></li>
+          <li><a href="/tests/matrix">Obligatory Matrix effect</a></li>
+          <li><a href="/tests/pieslap">Pieslap</a></li>
+          <li><a href="/tests/procedural-city">Procedural City (shader playground)</a></li>
+          <li><a href="/tests/roll-a-ball-0.1.0">roll-a-ball Unity tutorial project implementation</a></li>
+          <li><a href="/tests/three-playground">Three.js playground</a></li>
+          <li><a href="/tests/torrent-roulette">Torrent roulette</a></li>
+          <li><a href="/tests/wallpaper-slider">Wallpaper Slideshow</a></li>
+          <li><a href="/tests/editor.html">Kind-of-rich-text editor</a></li>
+          <li><a href="/etc/puzzle-thing">Puzzle</a></li>
+          <li><a href="/etc/puzzles/">More puzzles (WIP!)</a></li>
+          <li><a href="/tpt/tptkeys">Key shortcuts TPT uses (SVG interactivity)</a></li>
+          <li><a href="/tpt/version-maker">TPT Package Maker</a></li>
+        </ul>
+      </section>
+
+      <h1>Articles</h1>
+      <section class="articles">
+        <p>Here's a bunch of tutorials, or articles, or whatever.</p>
+        <ul>
+          <li><a href="/glob/making-tpt-brushes.html">Making Powder Toy Custom Brushes</a></li>
+          <li><a href="/glob/installing-script-manager.html">Installing Powder Toy Script Manager</a></li>
+          <li>...more to come</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="container">
+      <p><img src="img/email.png"> just email me already!</p>
+      <p>dogecoin goes here: DR9opcBzw2GBSvHot5hBjrszBTgo4zV7qc</p>
+      <p>bitcoin goes here: 1EFznB1AL5TCDFEyijbyHqR5B1GLznNkjw</p>
+      <p>my GPG public key: <a href="/PUBLIC_KEY">PUBLIC_KEY</a></p>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-34425443-4','auto');ga('send','pageview');
+    </script>
+  </body>
 </html>
