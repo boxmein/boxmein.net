@@ -1,7 +1,6 @@
 # [HTML5 Boilerplate](http://html5boilerplate.com)
 
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+[![buddy pipeline](https://app.buddy.works/boxmeins-experiments-inc/boxmein-net/pipelines/pipeline/66363/badge.svg?token=35a202f2d575fa0ee0ef6ae2e46a938a9e8d9acc3c8e327449da5e859e0be609 "buddy pipeline")](https://app.buddy.works/boxmeins-experiments-inc/boxmein-net/pipelines/pipeline/66363)
 
 HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or sites.
